@@ -17,6 +17,9 @@ Puretheme, a design template for puredata (vanilla)
 * create meta-editors (node-editors built in puredata)
 * easily create abstractions with builtin paramview (like touchdesigner/blender/sunvox)
 
-## How it works
+## Extending / How it works
 
-This is just creative usage of the canvas-object as [described in detail here](https://github.com/megalon/pd-gui-examples)
+This is just creative usage of the canvas-object as [described in detail here](https://github.com/megalon/pd-gui-examples).
+You can easily modify things, create your own, or add components created by others:
+
+* https://github.com/HenriAugusto/guilla
