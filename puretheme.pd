@@ -1,0 +1,231 @@
+#N canvas 39 65 1225 536 12;
+#X obj 131 118 hsl 164 20 0 127 0 0 empty empty empty -2 -8 0 10 -49933
+-155457 -1 0 1;
+#X obj 14 127 cnv 15 1 1 empty empty param_name 0 0 1 11 -66577 -191407
+0;
+#X obj 127 174 hradio 20 1 0 3 empty empty empty 0 -8 0 10 -49933 -155457
+-1 0;
+#X obj 127 287 bng 20 250 50 0 empty empty empty 17 7 0 10 -45772 -155457
+-1;
+#X obj 127 315 tgl 20 0 empty empty empty 17 7 0 10 -49933 -155457
+-1 0 1;
+#X obj 131 90 hsl 117 20 5 250 0 0 empty empty empty -2 -8 0 10 -49933
+-155457 -1 0 1;
+#X obj 258 90 cnv 15 39 20 empty empty empty 20 12 0 14 -1 -66577 0
+;
+#X obj 261 91 cnv 15 32 18 empty empty empty 20 13 0 14 -137314 -66577
+0;
+#X floatatom 260 91 5 0 0 0 - - -;
+#X obj 191 146 cnv 15 39 20 empty empty empty 20 12 0 14 -1 -4034 0
+;
+#X obj 194 147 cnv 15 32 18 empty empty empty 20 13 0 14 -137314 -66577
+0;
+#X floatatom 193 147 5 0 0 0 - - -;
+#X obj 257 146 cnv 15 39 20 empty empty empty 20 12 0 14 -1 -66577
+0;
+#X obj 260 147 cnv 15 32 18 empty empty empty 20 13 0 14 -137314 -66577
+0;
+#X floatatom 259 147 5 0 0 0 - - -;
+#X obj 14 156 cnv 15 1 1 empty empty param_name 0 0 1 11 -66577 -191407
+0;
+#X obj 14 187 cnv 15 1 1 empty empty param_name 0 0 1 11 -66577 -191407
+0;
+#X obj 14 298 cnv 15 1 1 empty empty param_name 0 0 1 11 -66577 -191407
+0;
+#X obj 14 325 cnv 15 1 1 empty empty param_name 0 0 1 11 -66577 -191407
+0;
+#X obj 16 99 cnv 15 1 1 empty empty param_name 0 0 1 11 -66577 -191407
+0;
+#X text 455 90 slider with numeric value feedback;
+#X text 455 117 slider simple;
+#X text 455 143 numeric controls;
+#X text 455 175 horizontal selector;
+#X obj 14 220 cnv 15 1 1 empty empty param_name 0 0 1 11 -66577 -191407
+0;
+#X obj 127 214 vradio 19 1 0 3 empty empty empty 0 0 0 12 -66577 -4034
+-1 0;
+#X obj 128 146 cnv 15 39 20 empty empty empty 20 12 0 14 -1 -4034 0
+;
+#X obj 131 147 cnv 15 32 18 empty empty empty 20 13 0 14 -137314 -66577
+0;
+#X floatatom 130 147 5 0 0 0 - - -;
+#X text 456 210 vertical selector;
+#X obj 159 221 cnv 15 1 1 empty empty A 0 0 1 11 -66577 -191407 0;
+#X obj 159 241 cnv 15 1 1 empty empty B 0 0 1 11 -66577 -191407 0;
+#X obj 159 262 cnv 15 1 1 empty empty C 0 0 1 11 -66577 -191407 0;
+#X obj 197 184 cnv 15 1 1 empty empty A_/_B_/_C 0 0 1 11 -66577 -191407
+0;
+#X text 456 314 toggle;
+#X text 458 285 button;
+#N canvas 1530 352 1550 662 project 0;
+#X obj 101 101 cnv 15 300 480 empty empty Your_application 10 12 1
+12 -1 -191407 0;
+#X obj 101 125 cnv 15 300 475 empty empty empty 20 12 0 14 -66577 -66577
+0;
+#X obj 225 137 hsl 160 18 0 127 0 0 empty empty empty -2 -8 0 10 -49933
+-155457 -1 0 1;
+#X obj 108 146 cnv 15 100 60 empty empty param_1 0 0 1 11 -66577 -191407
+0;
+#X obj 222 165 cnv 15 36 18 empty empty empty 20 13 0 14 -137314 -66577
+0;
+#X floatatom 221 165 5 0 0 0 - - -;
+#X obj 267 165 cnv 15 36 18 empty empty empty 20 13 0 14 -137314 -66577
+0;
+#X floatatom 266 165 5 0 0 0 - - -;
+#X obj 313 165 cnv 15 36 18 empty empty empty 20 13 0 14 -137314 -66577
+0;
+#X floatatom 312 165 5 0 0 0 - - -;
+#X obj 108 174 cnv 15 100 60 empty empty param_2 0 0 1 11 -66577 -191407
+0;
+#X obj 221 193 hradio 18 1 0 3 empty empty empty 0 -8 0 10 -49933 -155457
+-1 0;
+#X obj 108 202 cnv 15 100 60 empty empty param_3 0 0 1 11 -66577 -191407
+0;
+#X obj 221 221 bng 18 250 50 0 empty empty empty 17 7 0 10 -45772 -155457
+-1;
+#X obj 108 230 cnv 15 100 60 empty empty param_4 0 0 1 11 -66577 -191407
+0;
+#X obj 221 249 tgl 18 0 empty empty empty 17 7 0 10 -49933 -155457
+-1 0 1;
+#X obj 108 258 cnv 15 100 60 empty empty param_5 0 0 1 11 -66577 -191407
+0;
+#X obj 380 38 send param_1;
+#X obj 166 31 r param_1;
+#N canvas 0 22 450 300 cpuMeter 0;
+#X obj 128 178 cputime;
+#X obj 128 38 loadbang;
+#X obj 128 122 metro 1000;
+#X msg 128 66 1;
+#X floatatom 128 94 0 0 0 0 - - -;
+#X obj 128 150 t b b;
+#X obj 128 238 * 0.1;
+#X obj 128 207 int;
+#X obj 128 269 outlet;
+#X connect 0 0 7 0;
+#X connect 1 0 3 0;
+#X connect 2 0 5 0;
+#X connect 3 0 4 0;
+#X connect 4 0 2 0;
+#X connect 5 0 0 0;
+#X connect 5 1 0 1;
+#X connect 6 0 8 0;
+#X connect 7 0 6 0;
+#X restore 195 463 pd cpuMeter;
+#X obj 328 583 cnv 15 1 1 empty empty CPU 0 0 1 11 -66577 -191407 0
+;
+#X obj 356 573 cnv 15 39 20 empty empty empty 20 12 0 14 -1 -66577
+0;
+#X obj 359 574 cnv 15 32 18 empty empty empty 20 13 0 14 -137314 -66577
+0;
+#X floatatom 358 574 5 0 0 0 - - -;
+#X obj 402 100 cnv 15 700 500 empty empty empty 20 12 0 14 -233017
+-66577 0;
+#X connect 2 0 17 0;
+#X connect 18 0 5 0;
+#X connect 19 0 23 0;
+#X coords 0 -1 1 1 300 500 1 100 100;
+#X restore -328 4 pd project;
+#X text 13 21 copy/paste components GUI Template / styleguide to add
+controls to the panel copy/paste these;
+#N canvas 1819 340 319 242 module 0;
+#N canvas 1530 352 1550 662 project 0;
+#X obj 462 154 outlet;
+#X obj 101 100 cnv 15 300 200 empty empty empty 20 12 0 14 -66577 -66577
+0;
+#X obj 225 113 hsl 160 18 0 127 0 0 empty empty empty -2 -8 0 10 -49933
+-155457 -1 0 1;
+#X obj 108 122 cnv 15 100 60 empty empty param_1 0 0 1 11 -66577 -191407
+0;
+#X obj 222 141 cnv 15 36 18 empty empty empty 20 13 0 14 -137314 -66577
+0;
+#X floatatom 221 141 5 0 0 0 - - -;
+#X obj 267 141 cnv 15 36 18 empty empty empty 20 13 0 14 -137314 -66577
+0;
+#X floatatom 266 141 5 0 0 0 - - -;
+#X obj 313 141 cnv 15 36 18 empty empty empty 20 13 0 14 -137314 -66577
+0;
+#X floatatom 312 141 5 0 0 0 - - -;
+#X obj 108 150 cnv 15 100 60 empty empty param_2 0 0 1 11 -66577 -191407
+0;
+#X obj 221 169 hradio 18 1 0 3 empty empty empty 0 -8 0 10 -49933 -155457
+-1 0;
+#X obj 108 178 cnv 15 100 60 empty empty param_3 0 0 1 11 -66577 -191407
+0;
+#X obj 221 197 bng 18 250 50 0 empty empty empty 17 7 0 10 -45772 -155457
+-1;
+#X obj 108 206 cnv 15 100 60 empty empty param_4 0 0 1 11 -66577 -191407
+0;
+#X obj 221 225 tgl 18 0 empty empty empty 17 7 0 10 -49933 -155457
+-1 0 1;
+#X obj 108 234 cnv 15 100 60 empty empty param_5 0 0 1 11 -66577 -191407
+0;
+#X obj 380 14 send param_1;
+#X obj 166 7 r param_1;
+#X obj 462 117 inlet;
+#X connect 2 0 17 0;
+#X connect 18 0 5 0;
+#X connect 19 0 0 0;
+#X coords 0 -1 1 1 300 200 1 100 100;
+#X restore 0 24 pd project;
+#X obj 0 0 cnv 15 3 23 empty empty empty 20 12 0 14 -4034 -66577 0
+;
+#X obj 4 0 cnv 15 100 23 empty empty module_name 10 12 1 10 -99865
+-228856 0;
+#X obj -56 -4 inlet;
+#X obj -68 241 outlet;
+#X connect 0 0 4 0;
+#X connect 3 0 0 0;
+#X coords 0 -1 1 1 102 23 1 0 0;
+#X restore 77 403 pd module;
+#N canvas 1819 340 319 242 module 0;
+#N canvas 1530 352 1550 662 project 0;
+#X obj 462 154 outlet;
+#X obj 101 100 cnv 15 300 200 empty empty empty 20 12 0 14 -66577 -66577
+0;
+#X obj 225 113 hsl 160 18 0 127 0 0 empty empty empty -2 -8 0 10 -49933
+-155457 -1 0 1;
+#X obj 108 122 cnv 15 100 60 empty empty param_1 0 0 1 11 -66577 -191407
+0;
+#X obj 222 141 cnv 15 36 18 empty empty empty 20 13 0 14 -137314 -66577
+0;
+#X floatatom 221 141 5 0 0 0 - - -;
+#X obj 267 141 cnv 15 36 18 empty empty empty 20 13 0 14 -137314 -66577
+0;
+#X floatatom 266 141 5 0 0 0 - - -;
+#X obj 313 141 cnv 15 36 18 empty empty empty 20 13 0 14 -137314 -66577
+0;
+#X floatatom 312 141 5 0 0 0 - - -;
+#X obj 108 150 cnv 15 100 60 empty empty param_2 0 0 1 11 -66577 -191407
+0;
+#X obj 221 169 hradio 18 1 0 3 empty empty empty 0 -8 0 10 -49933 -155457
+-1 0;
+#X obj 108 178 cnv 15 100 60 empty empty param_3 0 0 1 11 -66577 -191407
+0;
+#X obj 221 197 bng 18 250 50 0 empty empty empty 17 7 0 10 -45772 -155457
+-1;
+#X obj 108 206 cnv 15 100 60 empty empty param_4 0 0 1 11 -66577 -191407
+0;
+#X obj 221 225 tgl 18 0 empty empty empty 17 7 0 10 -49933 -155457
+-1 0 1;
+#X obj 108 234 cnv 15 100 60 empty empty param_5 0 0 1 11 -66577 -191407
+0;
+#X obj 380 14 send param_1;
+#X obj 166 7 r param_1;
+#X obj 462 117 inlet;
+#X connect 2 0 17 0;
+#X connect 18 0 5 0;
+#X connect 19 0 0 0;
+#X coords 0 -1 1 1 300 200 1 100 100;
+#X restore 0 24 pd project;
+#X obj 0 0 cnv 15 3 23 empty empty empty 20 12 0 14 -4034 -66577 0
+;
+#X obj 4 0 cnv 15 100 23 empty empty module_name 10 12 1 10 -99865
+-228856 0;
+#X obj -56 -4 inlet;
+#X obj -68 241 outlet;
+#X connect 0 0 4 0;
+#X connect 3 0 0 0;
+#X coords 0 -1 1 1 102 23 1 0 0;
+#X restore 103 447 pd module;
+#X connect 5 0 8 0;
+#X connect 38 0 39 0;
