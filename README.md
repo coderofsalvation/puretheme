@@ -1,5 +1,7 @@
 Puretheme, a design template for puredata (vanilla)
 
+![](https://github.com/coderofsalvation/puretheme/blob/master/puretheme-guide.gif)
+
 ## Usage 
 
 * download `puretheme.pd` and put it in your project folder
