@@ -1,4 +1,4 @@
-Puretheme, a design template for puredata 
+Puretheme, a design template for puredata (vanilla)
 
 ## Usage 
 
